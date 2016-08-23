@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43E0608C1D6CFB7E007D5EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0608B1D6CFB7E007D5EEC /* main.m */; };
+		43E0608F1D6CFB7E007D5EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0608E1D6CFB7E007D5EEC /* AppDelegate.m */; };
+		43E060921D6CFB7E007D5EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E060911D6CFB7E007D5EEC /* ViewController.m */; };
+		43E060951D6CFB7E007D5EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E060931D6CFB7E007D5EEC /* Main.storyboard */; };
+		43E060971D6CFB7E007D5EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E060961D6CFB7E007D5EEC /* Assets.xcassets */; };
+		43E0609A1D6CFB7E007D5EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E060981D6CFB7E007D5EEC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43E060871D6CFB7E007D5EEC /* SmartGitClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGitClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E0608B1D6CFB7E007D5EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43E0608D1D6CFB7E007D5EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43E0608E1D6CFB7E007D5EEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43E060901D6CFB7E007D5EEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43E060911D6CFB7E007D5EEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43E060941D6CFB7E007D5EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43E060961D6CFB7E007D5EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43E060991D6CFB7E007D5EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43E0609B1D6CFB7E007D5EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43E060841D6CFB7E007D5EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43E0607E1D6CFB7E007D5EEC = {
+			isa = PBXGroup;
+			children = (
+				43E060891D6CFB7E007D5EEC /* SmartGitClient */,
+				43E060881D6CFB7E007D5EEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43E060881D6CFB7E007D5EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E060871D6CFB7E007D5EEC /* SmartGitClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E060891D6CFB7E007D5EEC /* SmartGitClient */ = {
+			isa = PBXGroup;
+			children = (
+				43E0608D1D6CFB7E007D5EEC /* AppDelegate.h */,
+				43E0608E1D6CFB7E007D5EEC /* AppDelegate.m */,
+				43E060901D6CFB7E007D5EEC /* ViewController.h */,
+				43E060911D6CFB7E007D5EEC /* ViewController.m */,
+				43E060931D6CFB7E007D5EEC /* Main.storyboard */,
+				43E060961D6CFB7E007D5EEC /* Assets.xcassets */,
+				43E060981D6CFB7E007D5EEC /* LaunchScreen.storyboard */,
+				43E0609B1D6CFB7E007D5EEC /* Info.plist */,
+				43E0608A1D6CFB7E007D5EEC /* Supporting Files */,
+			);
+			path = SmartGitClient;
+			sourceTree = "<group>";
+		};
+		43E0608A1D6CFB7E007D5EEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43E0608B1D6CFB7E007D5EEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43E060861D6CFB7E007D5EEC /* SmartGitClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E0609E1D6CFB7E007D5EEC /* Build configuration list for PBXNativeTarget "SmartGitClient" */;
+			buildPhases = (
+				43E060831D6CFB7E007D5EEC /* Sources */,
+				43E060841D6CFB7E007D5EEC /* Frameworks */,
+				43E060851D6CFB7E007D5EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGitClient;
+			productName = SmartGitClient;
+			productReference = 43E060871D6CFB7E007D5EEC /* SmartGitClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E0607F1D6CFB7E007D5EEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NullStackDev;
+				TargetAttributes = {
+					43E060861D6CFB7E007D5EEC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 43E060821D6CFB7E007D5EEC /* Build configuration list for PBXProject "SmartGitClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43E0607E1D6CFB7E007D5EEC;
+			productRefGroup = 43E060881D6CFB7E007D5EEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E060861D6CFB7E007D5EEC /* SmartGitClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43E060851D6CFB7E007D5EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E0609A1D6CFB7E007D5EEC /* LaunchScreen.storyboard in Resources */,
+				43E060971D6CFB7E007D5EEC /* Assets.xcassets in Resources */,
+				43E060951D6CFB7E007D5EEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E060831D6CFB7E007D5EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E060921D6CFB7E007D5EEC /* ViewController.m in Sources */,
+				43E0608F1D6CFB7E007D5EEC /* AppDelegate.m in Sources */,
+				43E0608C1D6CFB7E007D5EEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43E060931D6CFB7E007D5EEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E060941D6CFB7E007D5EEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43E060981D6CFB7E007D5EEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E060991D6CFB7E007D5EEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43E0609C1D6CFB7E007D5EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43E0609D1D6CFB7E007D5EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43E0609F1D6CFB7E007D5EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartGitClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsd.SmartGitClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43E060A01D6CFB7E007D5EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartGitClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nsd.SmartGitClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E060821D6CFB7E007D5EEC /* Build configuration list for PBXProject "SmartGitClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E0609C1D6CFB7E007D5EEC /* Debug */,
+				43E0609D1D6CFB7E007D5EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E0609E1D6CFB7E007D5EEC /* Build configuration list for PBXNativeTarget "SmartGitClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E0609F1D6CFB7E007D5EEC /* Debug */,
+				43E060A01D6CFB7E007D5EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E0607F1D6CFB7E007D5EEC /* Project object */;
+}
