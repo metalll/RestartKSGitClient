@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		439EB47A1D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB4791D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m */; };
+		439EB47D1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB47C1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m */; };
 		43E0608C1D6CFB7E007D5EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0608B1D6CFB7E007D5EEC /* main.m */; };
 		43E0608F1D6CFB7E007D5EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0608E1D6CFB7E007D5EEC /* AppDelegate.m */; };
 		43E060921D6CFB7E007D5EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E060911D6CFB7E007D5EEC /* ViewController.m */; };
 		43E060951D6CFB7E007D5EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E060931D6CFB7E007D5EEC /* Main.storyboard */; };
 		43E060971D6CFB7E007D5EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E060961D6CFB7E007D5EEC /* Assets.xcassets */; };
 		43E0609A1D6CFB7E007D5EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E060981D6CFB7E007D5EEC /* LaunchScreen.storyboard */; };
+		43E060A41D6CFBB4007D5EEC /* NSDHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E060A31D6CFBB4007D5EEC /* NSDHTTPClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		439EB4781D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+NSDBodyDataSetter.h"; sourceTree = "<group>"; };
+		439EB4791D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+NSDBodyDataSetter.m"; sourceTree = "<group>"; };
+		439EB47B1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSDStringEncoder.h"; sourceTree = "<group>"; };
+		439EB47C1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSDStringEncoder.m"; sourceTree = "<group>"; };
 		43E060871D6CFB7E007D5EEC /* SmartGitClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGitClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E0608B1D6CFB7E007D5EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43E0608D1D6CFB7E007D5EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,8 @@
 		43E060961D6CFB7E007D5EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E060991D6CFB7E007D5EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E0609B1D6CFB7E007D5EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E060A21D6CFBB4007D5EEC /* NSDHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDHTTPClient.h; sourceTree = "<group>"; };
+		43E060A31D6CFBB4007D5EEC /* NSDHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDHTTPClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,7 @@
 		43E0607E1D6CFB7E007D5EEC = {
 			isa = PBXGroup;
 			children = (
+				43E060A11D6CFB8A007D5EEC /* HTTPClient */,
 				43E060891D6CFB7E007D5EEC /* SmartGitClient */,
 				43E060881D6CFB7E007D5EEC /* Products */,
 			);
@@ -77,6 +87,19 @@
 				43E0608B1D6CFB7E007D5EEC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43E060A11D6CFB8A007D5EEC /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				43E060A21D6CFBB4007D5EEC /* NSDHTTPClient.h */,
+				43E060A31D6CFBB4007D5EEC /* NSDHTTPClient.m */,
+				439EB4781D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.h */,
+				439EB4791D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m */,
+				439EB47B1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.h */,
+				439EB47C1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m */,
+			);
+			name = HTTPClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439EB47D1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m in Sources */,
 				43E060921D6CFB7E007D5EEC /* ViewController.m in Sources */,
+				439EB47A1D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */,
 				43E0608F1D6CFB7E007D5EEC /* AppDelegate.m in Sources */,
+				43E060A41D6CFBB4007D5EEC /* NSDHTTPClient.m in Sources */,
 				43E0608C1D6CFB7E007D5EEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +328,7 @@
 				43E060A01D6CFB7E007D5EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
