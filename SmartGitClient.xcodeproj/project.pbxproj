@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		439EB47A1D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB4791D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m */; };
 		439EB47D1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB47C1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m */; };
+		439EB4801D6DF3C700E01793 /* NSDGitClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB47F1D6DF3C700E01793 /* NSDGitClient.m */; };
 		43E0608C1D6CFB7E007D5EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0608B1D6CFB7E007D5EEC /* main.m */; };
 		43E0608F1D6CFB7E007D5EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0608E1D6CFB7E007D5EEC /* AppDelegate.m */; };
 		43E060921D6CFB7E007D5EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E060911D6CFB7E007D5EEC /* ViewController.m */; };
@@ -23,6 +24,9 @@
 		439EB4791D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+NSDBodyDataSetter.m"; sourceTree = "<group>"; };
 		439EB47B1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSDStringEncoder.h"; sourceTree = "<group>"; };
 		439EB47C1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSDStringEncoder.m"; sourceTree = "<group>"; };
+		439EB47E1D6DF3C700E01793 /* NSDGitClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDGitClient.h; sourceTree = "<group>"; };
+		439EB47F1D6DF3C700E01793 /* NSDGitClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDGitClient.m; sourceTree = "<group>"; };
+		439EB4821D6DF4E700E01793 /* NSDGitClient_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDGitClient_Private.h; sourceTree = "<group>"; };
 		43E060871D6CFB7E007D5EEC /* SmartGitClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGitClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E0608B1D6CFB7E007D5EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43E0608D1D6CFB7E007D5EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,9 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		439EB4811D6DF3CC00E01793 /* GitApi */ = {
+			isa = PBXGroup;
+			children = (
+				439EB47E1D6DF3C700E01793 /* NSDGitClient.h */,
+				439EB4821D6DF4E700E01793 /* NSDGitClient_Private.h */,
+				439EB47F1D6DF3C700E01793 /* NSDGitClient.m */,
+			);
+			name = GitApi;
+			sourceTree = "<group>";
+		};
 		43E0607E1D6CFB7E007D5EEC = {
 			isa = PBXGroup;
 			children = (
+				439EB4811D6DF3CC00E01793 /* GitApi */,
 				43E060A11D6CFB8A007D5EEC /* HTTPClient */,
 				43E060891D6CFB7E007D5EEC /* SmartGitClient */,
 				43E060881D6CFB7E007D5EEC /* Products */,
@@ -176,6 +191,7 @@
 				43E060921D6CFB7E007D5EEC /* ViewController.m in Sources */,
 				439EB47A1D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */,
 				43E0608F1D6CFB7E007D5EEC /* AppDelegate.m in Sources */,
+				439EB4801D6DF3C700E01793 /* NSDGitClient.m in Sources */,
 				43E060A41D6CFBB4007D5EEC /* NSDHTTPClient.m in Sources */,
 				43E0608C1D6CFB7E007D5EEC /* main.m in Sources */,
 			);
