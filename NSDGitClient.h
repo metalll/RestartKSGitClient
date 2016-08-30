@@ -8,15 +8,47 @@
 
 #import <Foundation/Foundation.h>
 #import "NSDHTTPClient.h"
-@interface NSDGitClient : NSDHTTPClient{
-    @private NSString * username;
-    @private NSString * password;
-}
+@interface NSDGitClient : NSDHTTPClient
+
+@property NSString * username;
+@property NSString * password;
+#pragma mark - auth methods
 
 +(BOOL)isAuthorize;
-
 +(void)signOut;
++(void)processRequestCode:(NSString *) reqCode andCompletion:(void (^)())completion;
++(void)setAccessToken:(NSString *)token;
 
+
+#pragma mark - user profile methods;
+
++(void)userProfileWith:(NSString *)username
+               andPage:(NSUInteger *)page
+        andCompletion :(void (^)(NSDictionary * adic,NSError * aerr)) completion;
+
++(void)userReposWith:(NSString *)username
+             andPage:(NSUInteger *)page
+      andCompletion :(void (^)(NSDictionary * adic,NSError * aerr)) completion;
+
++(void)userNewsWith:(NSString *)username
+     andCompletion :(void (^)(NSDictionary * adic,NSError * aerr)) completion;
+
++(void)userActivityWith:(NSString *)username
+         andCompletion :(void (^)(NSDictionary * adic,NSError * aerr)) completion;
+
++(void)userFollowersWith:(NSString *)username
+                 andPage:(NSUInteger *)page
+          andCompletion :(void (^)(NSDictionary * adic,NSError * aerr)) completion;
+
++(void)userFollowingWith:(NSString *)username
+                 andPage:(NSUInteger *)page
+          andCompletion :(void (^)(NSDictionary * adic,NSError * aerr)) completion;
+
++(void)userStarredWith:(NSString *)username
+               andPage:(NSUInteger *)page
+        andCompletion :(void (^)(NSDictionary * adic,NSError * aerr)) completion;
+
+#pragma mark - repos methods
 
 
 

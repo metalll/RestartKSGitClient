@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432522991D75E69E001C2842 /* NSDGitConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 432522981D75E69E001C2842 /* NSDGitConstants.m */; };
 		439EB47A1D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB4791D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m */; };
 		439EB47D1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB47C1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m */; };
 		439EB4801D6DF3C700E01793 /* NSDGitClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB47F1D6DF3C700E01793 /* NSDGitClient.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		432522971D75E69E001C2842 /* NSDGitConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDGitConstants.h; sourceTree = "<group>"; };
+		432522981D75E69E001C2842 /* NSDGitConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDGitConstants.m; sourceTree = "<group>"; };
 		439EB4781D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+NSDBodyDataSetter.h"; sourceTree = "<group>"; };
 		439EB4791D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+NSDBodyDataSetter.m"; sourceTree = "<group>"; };
 		439EB47B1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSDStringEncoder.h"; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 				439EB47E1D6DF3C700E01793 /* NSDGitClient.h */,
 				439EB4821D6DF4E700E01793 /* NSDGitClient_Private.h */,
 				439EB47F1D6DF3C700E01793 /* NSDGitClient.m */,
+				432522971D75E69E001C2842 /* NSDGitConstants.h */,
+				432522981D75E69E001C2842 /* NSDGitConstants.m */,
 			);
 			name = GitApi;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 			files = (
 				439EB47D1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m in Sources */,
 				43E060921D6CFB7E007D5EEC /* ViewController.m in Sources */,
+				432522991D75E69E001C2842 /* NSDGitConstants.m in Sources */,
 				439EB47A1D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */,
 				43E0608F1D6CFB7E007D5EEC /* AppDelegate.m in Sources */,
 				439EB4801D6DF3C700E01793 /* NSDGitClient.m in Sources */,
