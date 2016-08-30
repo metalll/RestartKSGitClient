@@ -11,9 +11,39 @@
 #import "NSDGitConstants.h"
 @implementation NSDGitClient 
 
+#pragma mark - Private zone
+
++(instancetype)controller{
+    static NSDGitClient * instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[NSDGitClient alloc] init];
+    });
+    return instance;
+}
+
+-(instancetype)init{
+    if(self = [super init]){
+        
+        self.baseURL = kGithubAPIURL;
+        self.token = [[NSUserDefaults standardUserDefaults] objectForKey:NSDGitToken];
+        self.username = [[NSUserDefaults standardUserDefaults] objectForKey:NSDGitUsername];
+        self.password = [[NSUserDefaults standardUserDefaults] objectForKey:NSDGitPassword];
+        
+        
+        
+    }
+    return self;
+}
+
+
+#pragma mark - Public zone
+
+
+#pragma mark - Auth
 
 +(BOOL)isAuthorize{
-    return [[self controller] token]!=nil;
+    return [[self controller] token]!=nil&&[[self controller] username]!=nil&&[[self controller] password]!=nil;
 }
 
 +(void)signOut{
@@ -59,7 +89,12 @@
         return;
         
     }];
+}
+
++(void)setAccessToken:(NSString *)token{
     
 }
+
+
 
 @end

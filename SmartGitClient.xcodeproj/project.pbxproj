@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430247871D76073C00671786 /* NSDXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 430247861D76073C00671786 /* NSDXMLParser.m */; };
 		432522991D75E69E001C2842 /* NSDGitConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 432522981D75E69E001C2842 /* NSDGitConstants.m */; };
 		439EB47A1D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB4791D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.m */; };
 		439EB47D1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EB47C1D6DF01400E01793 /* NSDictionary+NSDStringEncoder.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430247851D76073C00671786 /* NSDXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDXMLParser.h; sourceTree = "<group>"; };
+		430247861D76073C00671786 /* NSDXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDXMLParser.m; sourceTree = "<group>"; };
 		432522971D75E69E001C2842 /* NSDGitConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDGitConstants.h; sourceTree = "<group>"; };
 		432522981D75E69E001C2842 /* NSDGitConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDGitConstants.m; sourceTree = "<group>"; };
 		439EB4781D6DEF1200E01793 /* NSMutableURLRequest+NSDBodyDataSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+NSDBodyDataSetter.h"; sourceTree = "<group>"; };
@@ -55,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		430356501D75F4490097EA32 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				430247851D76073C00671786 /* NSDXMLParser.h */,
+				430247861D76073C00671786 /* NSDXMLParser.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
 		439EB4811D6DF3CC00E01793 /* GitApi */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +82,7 @@
 		43E0607E1D6CFB7E007D5EEC = {
 			isa = PBXGroup;
 			children = (
+				430356501D75F4490097EA32 /* XMLParser */,
 				439EB4811D6DF3CC00E01793 /* GitApi */,
 				43E060A11D6CFB8A007D5EEC /* HTTPClient */,
 				43E060891D6CFB7E007D5EEC /* SmartGitClient */,
@@ -199,6 +212,7 @@
 				43E0608F1D6CFB7E007D5EEC /* AppDelegate.m in Sources */,
 				439EB4801D6DF3C700E01793 /* NSDGitClient.m in Sources */,
 				43E060A41D6CFBB4007D5EEC /* NSDHTTPClient.m in Sources */,
+				430247871D76073C00671786 /* NSDXMLParser.m in Sources */,
 				43E0608C1D6CFB7E007D5EEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
